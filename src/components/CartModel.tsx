@@ -21,14 +21,17 @@ const CartModel = () => {
             {/* TOP */}
             <div className="top"></div>
             {/* TITLE */}
-            <div className="tittle">
-              <h3>Product name</h3>
-              <div className="">$49</div>
+            <div className="flex items-center justify-between gap-8">
+              <h3 className="font-semibold">Product name</h3>
+              <div className="p-1 bg-gray-50 rounded-sm">$49</div>
             </div>
             {/* DESC */}
-            <div className="desc">avilable</div>
+            <div className="text-sm text-gray-500">avilable</div>
             {/* BOTTOM */}
-            {/* <div className="bottom"></div> */}
+            <div className="">
+              <span>Qty. 2</span>
+              <span>Remove </span>
+            </div>
           </div>
         </div>
       )}
