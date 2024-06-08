@@ -1,9 +1,11 @@
-import React from 'react'
+import Slider from "../components/Slider";
 
-const page = () => {
+const HomePage = () => {
   return (
-    <div>Hello from Page</div>
-  )
-}
+    <div className="">
+      <Slider />
+    </div>
+  );
+};
 
-export default page
+export default HomePage;
