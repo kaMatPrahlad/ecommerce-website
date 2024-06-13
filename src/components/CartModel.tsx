@@ -54,7 +54,9 @@ const CartModel = () => {
                   <h3 className="font-semibold">Product name</h3>
                   <div className="p-1 bg-gray-50 rounded-sm">$49</div>
                 </div>
+                
                 {/* DESC */}
+
                 <div className="text-sm text-gray-500">avilable</div>
                 {/* BOTTOM */}
                 <div className="flex justify-between text-sm">
