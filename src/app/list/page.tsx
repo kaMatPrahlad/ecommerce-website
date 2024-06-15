@@ -1,7 +1,7 @@
-// import Filter from "@/components/Filter";
-// import ProductList from "@/components/ProductList";
 // import Skeleton from "@/components/Skeleton";
 // import { wixClientServer } from "@/lib/wixClientServer";
+import Filter from "@/src/components/Filter";
+import ProductList from "@/src/components/ProductList";
 import Image from "next/image";
 import { Suspense } from "react";
 
@@ -30,12 +30,12 @@ const ListPage = async () => {
         </div>
       </div>
       FILTER
-      {/* <Filter />
+      <Filter />
       {/* PRODUCTS */}
-      {/* <h1 className="mt-12 text-xl font-semibold"> */}
-      {/* {cat?.collection?.name} For You!
+      <h1 className="mt-12 text-xl font-semibold">
+        {/* {cat?.collection?.name} For You! */}
       </h1>
-      <Suspense fallback={<Skeleton />}>
+      {/* <Suspense fallback={<Skeleton />}>
         <ProductList
           categoryId={
             cat.collection?._id || "00000000-000000-000000-000000000001"
