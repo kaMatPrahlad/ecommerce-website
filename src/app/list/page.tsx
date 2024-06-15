@@ -1,9 +1,7 @@
-import React from 'react'
-
 const ListPage = () => {
-    return (
-        <div>ListPage</div>
-    )
-}
+  return (
+    <div className="px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative"></div>
+  );
+};
 
-export default ListPage
+export default ListPage;
