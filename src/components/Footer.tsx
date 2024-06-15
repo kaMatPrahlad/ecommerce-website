@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="text-2xl tracking-wide">LAMA</div>
           </Link>
           <p>
-            306, Ashadep Apt, Ghandhi Chowk, Phoolpada road, Virar 401305,
+            306, Ashadep Apt, Ghandhi Chowk, PhoolPada Road, Virar 401305,
             Mumbai
           </p>
           <span className="font-semibold">kamatprahlad43@gmail.com</span>
